@@ -7,9 +7,10 @@
 //
 
 #include <iostream>
-
+#include "Signals.hpp"
+using namespace Signals;
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    
     return 0;
 }
