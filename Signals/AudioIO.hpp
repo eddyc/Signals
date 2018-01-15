@@ -10,7 +10,7 @@
 #define AudioIO_hpp
 
 #include <stdio.h>
-
+#include <functional>
 
 class AudioIO {
     

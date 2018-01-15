@@ -6,40 +6,36 @@
 //  Copyright © 2018 Edward Costello. All rights reserved.
 //
 
-#define CATCH_CONFIG_MAIN
 #include <iostream>
-#include "catch.hpp"
+#include <gtest/gtest.h>
 #include "Data.hpp"
 #include "Signals.hpp"
 
 using namespace Signals;
 
-TEST_CASE("") {
+
+TEST(GeneralTest, GeneralTest) {
+    
     auto allocate = [](size_t elementCount) {
         return (double *)calloc(elementCount, sizeof(double));
     };
     
-    size_t elementCount = 20;
+    size_t elementCount = 5;
     double *data = allocate(elementCount);
-    auto a = Array<double>(elementCount, data);
     auto v = Vector<double>(elementCount, data);
     v[4] = 445;
+    double stuff = v[4];
     v.print();
-    
-}
-
-
-TEST_CASE("") {
-    
-    Signals::pushContext([](){
+    for (auto &i : v) {
         
-        //        Object x;
-        Scalar y;
-        Scalar(54);
-        y.i();
-    });
-    
-    Signals::init();
-    Signals::tick();
+        i = 34;
+    }
+    v.print();
 }
+
+int main(int argc, char **argv) {
+    ::testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
+}
+
 
