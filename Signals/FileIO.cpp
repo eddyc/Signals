@@ -11,7 +11,7 @@
 using namespace Signals;
 
 void FileIO::openDataset(string filePath, string datasetName,
-                         function<double *(size_t elementCount)> allocator,
+                         function<tuple<double *, size_t, size_t>(size_t rowCount, size_t columnCount)> allocator,
                          function<void(double *data, size_t rowCount, size_t columnCount)> assigner)
 {
     hid_t fileID, dataSetID, dataSpaceID;
@@ -27,14 +27,14 @@ void FileIO::openDataset(string filePath, string datasetName,
     
     H5Sget_simple_extent_dims(dataSpaceID, dimensions, NULL);
     
-    double *data = allocator(dimensions[0] * dimensions[1]);
+    tuple<double *, size_t, size_t> p = allocator(dimensions[0], dimensions[1]);
     
-    status = H5Dread(dataSetID, H5T_NATIVE_DOUBLE, H5S_ALL, H5S_ALL, H5P_DEFAULT, (void *)data);
+    status = H5Dread(dataSetID, H5T_NATIVE_DOUBLE, H5S_ALL, H5S_ALL, H5P_DEFAULT, (void *)get<0>(p));
     
     status = H5Sclose(dataSpaceID);
     status = H5Dclose(dataSetID);
     status = H5Fclose(fileID);
     
-    assigner(data, dimensions[0], dimensions[1]);
+    assigner(get<0>(p), dimensions[0], dimensions[1]);
 }
 

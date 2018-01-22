@@ -11,6 +11,9 @@
 
 #include <stdio.h>
 #include <functional>
+#include <portaudio.h>
+
+
 
 class AudioIO {
     

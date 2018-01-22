@@ -41,7 +41,7 @@ namespace Signals {
         template<class T>
         T *pushObject();
         template<class T>
-        T *getObject(int);
+        T *getObject(size_t);
         void init();
         void tick();
     };

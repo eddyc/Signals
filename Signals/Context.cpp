@@ -64,10 +64,10 @@ T *Context::pushObject()
 }
 
 template<class T>
-T *Context::getObject(int index)
+T *Context::getObject(size_t index)
 {
     return (T *)objectInstances[index];
 }
 
 template ScalarInstance *Context::pushObject<ScalarInstance>();
-template ScalarInstance *Context::getObject<ScalarInstance>(int);
+template ScalarInstance *Context::getObject<ScalarInstance>(size_t);

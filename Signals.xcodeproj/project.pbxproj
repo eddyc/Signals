@@ -17,20 +17,27 @@
 		4438CFE1200A4EC5003F71DD /* Object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4434BB121FEDC36F00F93D59 /* Object.cpp */; };
 		4438CFE2200A4EC5003F71DD /* Scalar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 443340F320014900002071EF /* Scalar.cpp */; };
 		4438CFE4200B832B003F71DD /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4438CFE3200B832B003F71DD /* libgtest.a */; };
-		4438CFE7200B896E003F71DD /* Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4438CFE5200B896E003F71DD /* Array.cpp */; };
-		4438CFE8200B896E003F71DD /* Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4438CFE5200B896E003F71DD /* Array.cpp */; };
 		4438CFEB200B89AC003F71DD /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4438CFE9200B89AC003F71DD /* Vector.cpp */; };
 		4438CFEC200B89AC003F71DD /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4438CFE9200B89AC003F71DD /* Vector.cpp */; };
 		4438CFEF200B9C2F003F71DD /* FileIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4438CFED200B9C2F003F71DD /* FileIO.cpp */; };
 		4438CFF0200B9C2F003F71DD /* FileIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4438CFED200B9C2F003F71DD /* FileIO.cpp */; };
 		4438CFF2200BE383003F71DD /* libhdf5.101.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4438CFF1200BE383003F71DD /* libhdf5.101.dylib */; };
 		4438CFF3200BE3AD003F71DD /* libhdf5.101.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4438CFF1200BE383003F71DD /* libhdf5.101.dylib */; };
+		4438CFF6200CF021003F71DD /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4438CFF4200CF021003F71DD /* Matrix.cpp */; };
+		4438CFF7200CF021003F71DD /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4438CFF4200CF021003F71DD /* Matrix.cpp */; };
+		4438CFFA200D0464003F71DD /* MatrixMaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4438CFF8200D0464003F71DD /* MatrixMaths.cpp */; };
+		4438CFFB200D0464003F71DD /* MatrixMaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4438CFF8200D0464003F71DD /* MatrixMaths.cpp */; };
+		4438CFFE200D0F7C003F71DD /* VectorMaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4438CFFC200D0F7C003F71DD /* VectorMaths.cpp */; };
+		4438CFFF200D0F7C003F71DD /* VectorMaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4438CFFC200D0F7C003F71DD /* VectorMaths.cpp */; };
 		4473F0121FC789BF00B4EA4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4473F0111FC789BF00B4EA4A /* main.cpp */; };
 		4473F01A1FC78A6900B4EA4A /* Signals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4473F0181FC78A6900B4EA4A /* Signals.cpp */; };
 		4473F01D1FC78D1200B4EA4A /* Context.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4473F01B1FC78D1200B4EA4A /* Context.cpp */; };
 		447FC0891FE481F000580182 /* AudioIO.mm in Sources */ = {isa = PBXBuildFile; fileRef = 447FC0871FE481F000580182 /* AudioIO.mm */; };
 		447FC08C1FE4825400580182 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447FC08B1FE4825400580182 /* AVFoundation.framework */; };
 		447FC08E1FE4825A00580182 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447FC08D1FE4825A00580182 /* AudioToolbox.framework */; };
+		44C92A4720153E34002D0015 /* libportaudio.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C92A4620153E34002D0015 /* libportaudio.2.dylib */; };
+		44E43653200F7FDB00D6FCBC /* StridedVectorMaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44E43651200F7FDB00D6FCBC /* StridedVectorMaths.cpp */; };
+		44E43654200F7FDB00D6FCBC /* StridedVectorMaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44E43651200F7FDB00D6FCBC /* StridedVectorMaths.cpp */; };
 		44EF79C01FC8BCE20080E6CA /* Stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EF79BE1FC8BCE20080E6CA /* Stream.cpp */; };
 /* End PBXBuildFile section */
 
@@ -64,13 +71,17 @@
 		4438CFD1200954DC003F71DD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4438CFD6200954F3003F71DD /* catch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = catch.hpp; sourceTree = "<group>"; };
 		4438CFE3200B832B003F71DD /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = ../../../../../usr/local/lib/libgtest.a; sourceTree = "<group>"; };
-		4438CFE5200B896E003F71DD /* Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Array.cpp; sourceTree = "<group>"; };
-		4438CFE6200B896E003F71DD /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		4438CFE9200B89AC003F71DD /* Vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
 		4438CFEA200B89AC003F71DD /* Vector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vector.hpp; sourceTree = "<group>"; };
 		4438CFED200B9C2F003F71DD /* FileIO.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileIO.cpp; sourceTree = "<group>"; };
 		4438CFEE200B9C2F003F71DD /* FileIO.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileIO.hpp; sourceTree = "<group>"; };
 		4438CFF1200BE383003F71DD /* libhdf5.101.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libhdf5.101.dylib; path = ../../../../../usr/local/Cellar/hdf5/1.10.1_2/lib/libhdf5.101.dylib; sourceTree = "<group>"; };
+		4438CFF4200CF021003F71DD /* Matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
+		4438CFF5200CF021003F71DD /* Matrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Matrix.hpp; sourceTree = "<group>"; };
+		4438CFF8200D0464003F71DD /* MatrixMaths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixMaths.cpp; sourceTree = "<group>"; };
+		4438CFF9200D0464003F71DD /* MatrixMaths.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MatrixMaths.hpp; sourceTree = "<group>"; };
+		4438CFFC200D0F7C003F71DD /* VectorMaths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VectorMaths.cpp; sourceTree = "<group>"; };
+		4438CFFD200D0F7C003F71DD /* VectorMaths.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VectorMaths.hpp; sourceTree = "<group>"; };
 		4473F00E1FC789BF00B4EA4A /* Signals */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Signals; sourceTree = BUILT_PRODUCTS_DIR; };
 		4473F0111FC789BF00B4EA4A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4473F0181FC78A6900B4EA4A /* Signals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Signals.cpp; sourceTree = "<group>"; };
@@ -81,6 +92,9 @@
 		447FC0881FE481F000580182 /* AudioIO.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AudioIO.hpp; sourceTree = "<group>"; };
 		447FC08B1FE4825400580182 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		447FC08D1FE4825A00580182 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		44C92A4620153E34002D0015 /* libportaudio.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libportaudio.2.dylib; path = ../../../../../usr/local/Cellar/portaudio/19.6.0/lib/libportaudio.2.dylib; sourceTree = "<group>"; };
+		44E43651200F7FDB00D6FCBC /* StridedVectorMaths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StridedVectorMaths.cpp; sourceTree = "<group>"; };
+		44E43652200F7FDB00D6FCBC /* StridedVectorMaths.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StridedVectorMaths.hpp; sourceTree = "<group>"; };
 		44EF79BE1FC8BCE20080E6CA /* Stream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stream.cpp; sourceTree = "<group>"; };
 		44EF79BF1FC8BCE20080E6CA /* Stream.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stream.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C92A4720153E34002D0015 /* libportaudio.2.dylib in Frameworks */,
 				4438CFF3200BE3AD003F71DD /* libhdf5.101.dylib in Frameworks */,
 				447FC08E1FE4825A00580182 /* AudioToolbox.framework in Frameworks */,
 				447FC08C1FE4825400580182 /* AVFoundation.framework in Frameworks */,
@@ -156,8 +171,14 @@
 				443340F420014900002071EF /* Scalar.hpp */,
 				4438CFE9200B89AC003F71DD /* Vector.cpp */,
 				4438CFEA200B89AC003F71DD /* Vector.hpp */,
-				4438CFE5200B896E003F71DD /* Array.cpp */,
-				4438CFE6200B896E003F71DD /* Array.hpp */,
+				4438CFFC200D0F7C003F71DD /* VectorMaths.cpp */,
+				4438CFFD200D0F7C003F71DD /* VectorMaths.hpp */,
+				44E43651200F7FDB00D6FCBC /* StridedVectorMaths.cpp */,
+				44E43652200F7FDB00D6FCBC /* StridedVectorMaths.hpp */,
+				4438CFF4200CF021003F71DD /* Matrix.cpp */,
+				4438CFF5200CF021003F71DD /* Matrix.hpp */,
+				4438CFF8200D0464003F71DD /* MatrixMaths.cpp */,
+				4438CFF9200D0464003F71DD /* MatrixMaths.hpp */,
 			);
 			path = Signals;
 			sourceTree = "<group>";
@@ -165,6 +186,7 @@
 		447FC08A1FE4825400580182 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				44C92A4620153E34002D0015 /* libportaudio.2.dylib */,
 				4438CFF1200BE383003F71DD /* libhdf5.101.dylib */,
 				4438CFE3200B832B003F71DD /* libgtest.a */,
 				447FC08D1FE4825A00580182 /* AudioToolbox.framework */,
@@ -254,9 +276,12 @@
 			files = (
 				4438CFD2200954DC003F71DD /* main.cpp in Sources */,
 				4438CFDC200A4EC5003F71DD /* Stream.cpp in Sources */,
+				44E43654200F7FDB00D6FCBC /* StridedVectorMaths.cpp in Sources */,
+				4438CFFB200D0464003F71DD /* MatrixMaths.cpp in Sources */,
+				4438CFF7200CF021003F71DD /* Matrix.cpp in Sources */,
 				4438CFEC200B89AC003F71DD /* Vector.cpp in Sources */,
-				4438CFE8200B896E003F71DD /* Array.cpp in Sources */,
 				4438CFDD200A4EC5003F71DD /* AudioIO.mm in Sources */,
+				4438CFFF200D0F7C003F71DD /* VectorMaths.cpp in Sources */,
 				4438CFF0200B9C2F003F71DD /* FileIO.cpp in Sources */,
 				4438CFDF200A4EC5003F71DD /* Signals.cpp in Sources */,
 				4438CFE0200A4EC5003F71DD /* Context.cpp in Sources */,
@@ -271,9 +296,12 @@
 			files = (
 				443340F520014900002071EF /* Scalar.cpp in Sources */,
 				4473F01D1FC78D1200B4EA4A /* Context.cpp in Sources */,
+				44E43653200F7FDB00D6FCBC /* StridedVectorMaths.cpp in Sources */,
+				4438CFFA200D0464003F71DD /* MatrixMaths.cpp in Sources */,
+				4438CFF6200CF021003F71DD /* Matrix.cpp in Sources */,
 				4438CFEB200B89AC003F71DD /* Vector.cpp in Sources */,
-				4438CFE7200B896E003F71DD /* Array.cpp in Sources */,
 				4473F0121FC789BF00B4EA4A /* main.cpp in Sources */,
+				4438CFFE200D0F7C003F71DD /* VectorMaths.cpp in Sources */,
 				4438CFEF200B9C2F003F71DD /* FileIO.cpp in Sources */,
 				4434BB141FEDC36F00F93D59 /* Object.cpp in Sources */,
 				4473F01A1FC78A6900B4EA4A /* Signals.cpp in Sources */,
@@ -417,11 +445,14 @@
 		4473F0161FC789BF00B4EA4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = (
 					/usr/local/lib,
 					/usr/local/Cellar/hdf5/1.10.1_2/lib,
+					/usr/local/Cellar/portaudio/19.6.0/lib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -430,11 +461,14 @@
 		4473F0171FC789BF00B4EA4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = (
 					/usr/local/lib,
 					/usr/local/Cellar/hdf5/1.10.1_2/lib,
+					/usr/local/Cellar/portaudio/19.6.0/lib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

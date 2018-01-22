@@ -21,7 +21,7 @@ namespace Signals {
     public:
         
         static void openDataset(string, string,
-                                function<double *(size_t elementCount)>,
+                                function<tuple<double *, size_t, size_t>(size_t, size_t)> allocator,
                                 function<void(double *, size_t, size_t)>);
     };
 }
